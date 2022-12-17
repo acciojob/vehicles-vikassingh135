@@ -6,10 +6,15 @@ public class Vehicle {
     private int currentSpeed;
     private int currentDirection;
 
+    public Vehicle() {
+    }
+    
+    
+
     public Vehicle(String name) {
-//          this.name = name;  
-//          currentDirection = 0;
-//          currentSpeed = 0;
+          this.name = name;  
+          currentDirection = 0;
+          currentSpeed = 0;
     }
 
     public void steer(int direction){
