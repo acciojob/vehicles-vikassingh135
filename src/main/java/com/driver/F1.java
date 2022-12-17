@@ -26,7 +26,7 @@ public class F1 extends Car {
         }
         //for all other cases, change the gear accordingly
 
-        if(newSpeed > 0) {
+        else if(newSpeed > 0) {
             if(newSpeed>=1 && newSpeed<=50) setGears(1);
             else if(newSpeed>=51 && newSpeed<=100) setGears(2);
             else if(newSpeed>=101 && newSpeed<=150) setGears(3);
